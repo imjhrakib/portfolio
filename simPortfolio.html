@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0px;
+      background-color: rgb(95, 81, 107);
+      
+    }
+
+    .head-section {
+      background-color: rgb(59, 54, 54);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo-title {
+      margin-left: 70px;
+      color: white;
+    }
+
+    nav ul li {
+      display: inline;
+      text-align: center;
+      margin-left: 40px;
+      color: white;
+
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    nav ul {
+      margin-top: 30px;
+    }
+
+    .right-section {
+      margin-top: 30px;
+      margin-right: 70px;
+      height: 22px;
+      width: 90px;
+      background-color: rgb(238, 107, 13);
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border-radius: 10px;
+      border: none;
+      height: 30px;
+    }
+
+    .profilepic {
+      margin-top: 60px;
+      margin-left: 150px;
+      border-radius: 200px;
+    }
+    .main-content{
+     display: flex; 
+    }
+    .buttons{
+      display: flex;
+      
+    }
+    .profile-des{
+      margin-top: 50px;
+      margin-left: 40px;
+    }
+    .fb-button{
+      width: 100px;
+     padding-left: 20px;
+    }
+    .ln-button{
+     
+      width: 100px;
+      margin-left: 50px;
+      padding-left: 25px;
+    }
+    .introduction {
+      width: 350px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="head-section">
+    <h1 class="logo-title">JH Rakib</h1>
+    <nav class="mid-section">
+      <ul class="ull">
+        <a href="#home">
+          <li>Home</li>
+        </a>
+        <a href="#about">
+          <li>About</li>
+        </a>
+        <a href="#portfolio">
+          <li>Portfolio</li>
+        </a>
+      </ul>
+    </nav>
+    <button class="right-section">
+      <img src="icon/icons8-phone-50.png" width="16px" height="17px">
+      <span>Contact</span>
+    </button>
+  </header>
+  <div class="main-content">
+    <img class="profilepic" src="profile-pic/file.enc" height="300px" width="300px">
+    <div class="profile-des">
+      <h3>JH Rakib</h3>
+      <p class="introduction">Hi, I’m JH Rakib. I’m currently studying Computer Science and Engineering at the Institute of Science and Technology, under the National University of Bangladesh. I’m passionate about learning web development and data structures using C++. I'm also interested in AI and machine learning, and I’m working towards becoming a remote software engineer. In my free time, I enjoy exploring new technologies and improving my English communication skills.</p>
+      <div class="buttons">
+        <button class="fb-button" style="text-align: center;"><a href="https://www.facebook.com/imjhrakib/">Facebook</a></button>
+        <button class="ln-button"><a href="https://www.linkedin.com/in/imjhrakib/">linkedin</a></button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
